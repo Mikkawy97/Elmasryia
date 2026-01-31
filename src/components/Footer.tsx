@@ -88,18 +88,18 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className={isRTL ? "text-right" : ""}>
             <h3
               className={`mb-6 text-lg font-bold uppercase text-white ${isRTL ? "font-arabic" : "font-display"}`}
             >
               {t("quickLinks")}
             </h3>
-            <ul className="space-y-3">
+            <ul className={`space-y-3 ${isRTL ? "text-right" : ""}`}>
               {quickLinks.map((link, index) => (
                 <li key={index}>
                   <a
                     href={link.href}
-                    className={`group flex items-center gap-2 text-sm text-industrial-gray-400 transition-colors hover:text-industrial-red ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
+                    className={`group inline-flex items-center gap-2 text-sm text-industrial-gray-400 transition-colors hover:text-industrial-red ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
                   >
                     <span className="h-px w-0 bg-industrial-red transition-all group-hover:w-4"></span>
                     {link.label}
@@ -110,17 +110,17 @@ export default function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          <div className={isRTL ? "text-right" : ""}>
             <h3
               className={`mb-6 text-lg font-bold uppercase text-white ${isRTL ? "font-arabic" : "font-display"}`}
             >
               {t("servicesTitle")}
             </h3>
-            <ul className="space-y-3">
+            <ul className={`space-y-3 ${isRTL ? "text-right" : ""}`}>
               {services.map((service, index) => (
                 <li key={index}>
                   <span
-                    className={`flex items-start gap-2 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
+                    className={`inline-flex items-start gap-2 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
                   >
                     <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-industrial-red"></span>
                     {service.label}
@@ -131,40 +131,46 @@ export default function Footer() {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className={isRTL ? "text-right" : ""}>
             <h3
               className={`mb-6 text-lg font-bold uppercase text-white ${isRTL ? "font-arabic" : "font-display"}`}
             >
               {t("contactTitle")}
             </h3>
-            <ul className="space-y-4">
-              <li
-                className={`flex items-start gap-3 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
-              >
-                <span className="text-industrial-red">📍</span>
-                <span>{t("address")}</span>
-              </li>
-              <li
-                className={`flex items-start gap-3 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
-              >
-                <span className="text-industrial-red">📞</span>
-                <a
-                  href="tel:+201234567890"
-                  className="hover:text-industrial-red transition-colors"
+            <ul className={`space-y-4 ${isRTL ? "text-right" : ""}`}>
+              <li>
+                <span
+                  className={`flex items-start gap-3 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
                 >
-                  {t("phone")}
-                </a>
+                  <span className="text-industrial-red">📍</span>
+                  <span>{t("address")}</span>
+                </span>
               </li>
-              <li
-                className={`flex items-start gap-3 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
-              >
-                <span className="text-industrial-red">📧</span>
-                <a
-                  href="mailto:info@egyptianmetalworks.com"
-                  className="hover:text-industrial-red transition-colors"
+              <li>
+                <span
+                  className={`flex items-start gap-3 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
                 >
-                  {t("email")}
-                </a>
+                  <span className="text-industrial-red">📞</span>
+                  <a
+                    href="tel:+201234567890"
+                    className="hover:text-industrial-red transition-colors"
+                  >
+                    {t("phone")}
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span
+                  className={`flex items-start gap-3 text-sm text-industrial-gray-400 ${isRTL ? "flex-row-reverse font-arabic" : ""}`}
+                >
+                  <span className="text-industrial-red">📧</span>
+                  <a
+                    href="mailto:info@egyptianmetalworks.com"
+                    className="hover:text-industrial-red transition-colors"
+                  >
+                    {t("email")}
+                  </a>
+                </span>
               </li>
             </ul>
           </div>
