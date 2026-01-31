@@ -47,7 +47,7 @@ export default function Hero() {
           playsInline
           className="absolute h-full w-full object-cover blur-sm"
         >
-          <source src="/videos/Homevideo.mp4" type="video/mp4" />
+          <source src="/videos/HomeVideo.mp4" type="video/mp4" />
         </video>
 
         <div className="absolute inset-0 bg-industrial-black/75" />
