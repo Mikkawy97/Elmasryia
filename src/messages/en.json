@@ -1,0 +1,186 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "titleLine1": "ENGINEERING STRENGTH",
+    "titleLine2": "IN",
+    "accentWord": "MOTION",
+    "subtitle": "Manufacturing and Maintenance of Marble and Granite Equipment",
+    "description": "Leading provider of industrial machinery solutions with over 25 years of expertise. We specialize in custom equipment design, precision manufacturing, comprehensive maintenance services, and reliable spare parts supply for the stone processing industry across the Middle East and North Africa.",
+    "ctaPrimary": "EXPLORE SERVICES",
+    "ctaSecondary": "CONTACT US",
+    "trustLine": "Industrial-grade manufacturing • Maintenance • Spare parts",
+    "stats": {
+      "years": "Years of Experience",
+      "projects": "Projects Completed",
+      "clients": "Satisfied Clients"
+    }
+  },
+  "services": {
+    "subtitle": "What We Offer",
+    "title": "OUR SERVICES",
+    "description": "Comprehensive industrial solutions for marble and granite processing equipment. From design to delivery, we ensure precision engineering and reliable performance.",
+    "manufacturing": {
+      "title": "Equipment Manufacturing",
+      "description": "Custom-built industrial machinery designed for heavy-duty marble and granite processing with precision engineering.",
+      "features": [
+        "CNC machining and fabrication",
+        "Custom equipment design",
+        "Quality assurance testing",
+        "ISO-certified production"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance Services",
+      "description": "Professional maintenance and repair services to keep your equipment running at peak performance.",
+      "features": [
+        "Preventive maintenance programs",
+        "Emergency repair services",
+        "Performance optimization",
+        "24/7 technical support"
+      ]
+    },
+    "spareparts": {
+      "title": "Spare Parts Supply",
+      "description": "Genuine spare parts and components sourced from trusted suppliers with guaranteed compatibility.",
+      "features": [
+        "OEM and aftermarket parts",
+        "Fast delivery nationwide",
+        "Technical documentation",
+        "Warranty coverage"
+      ]
+    }
+  },
+  "about": {
+    "subtitle": "Our Story",
+    "title": "BUILT ON PRECISION",
+    "paragraph1": "Egyptian Co. for Metal Works has been at the forefront of industrial equipment manufacturing since our establishment. We specialize in the design, production, and maintenance of marble and granite processing machinery.",
+    "paragraph2": "Our commitment to engineering excellence and customer satisfaction has made us a trusted partner for businesses across the region. Every project we undertake reflects our dedication to quality, reliability, and innovation.",
+    "imageAlt": "Egyptian Co. factory floor",
+    "stats": {
+      "years": {
+        "value": "25+",
+        "label": "Years of Experience"
+      },
+      "projects": {
+        "value": "500+",
+        "label": "Projects Completed"
+      },
+      "clients": {
+        "value": "200+",
+        "label": "Satisfied Clients"
+      },
+      "team": {
+        "value": "50+",
+        "label": "Expert Engineers"
+      }
+    }
+  },
+  "projects": {
+    "subtitle": "Our Work",
+    "title": "FEATURED PROJECTS",
+    "description": "Showcase of our industrial manufacturing capabilities and successful project deliveries across various sectors.",
+    "items": [
+      {
+        "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80",
+        "title": "Industrial Cutting Line",
+        "category": "Manufacturing",
+        "description": "Complete automated cutting system for granite processing facility"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80",
+        "title": "Polishing Equipment",
+        "category": "Custom Build",
+        "description": "High-precision polishing machinery with advanced control systems"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&q=80",
+        "title": "Conveyor System",
+        "category": "Installation",
+        "description": "Heavy-duty material handling system for marble production"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=80",
+        "title": "Bridge Saw Retrofit",
+        "category": "Maintenance",
+        "description": "Complete overhaul and modernization of existing bridge saw equipment"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800&q=80",
+        "title": "Edge Polisher",
+        "category": "Manufacturing",
+        "description": "Custom-designed edge polishing machine for precision finishing"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1581092160607-ee67d17c6e6f?w=800&q=80",
+        "title": "Water Recycling Unit",
+        "category": "Engineering",
+        "description": "Sustainable water management system for stone processing"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Leading provider of industrial machinery solutions with over 25 years of expertise in marble and granite processing equipment.",
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Our Services",
+    "contactTitle": "Contact Us",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About Us",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "services": {
+      "manufacturing": "Equipment Manufacturing",
+      "maintenance": "Maintenance Services",
+      "spareparts": "Spare Parts Supply"
+    },
+    "address": "Cairo, Egypt",
+    "phone": "+20 123 456 7890",
+    "email": "info@egyptianmetalworks.com",
+    "copyright": "Egyptian Co. for Metal Works. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title": "LET'S WORK TOGETHER",
+    "description": "Ready to discuss your project? Our team of engineers is here to provide expert consultation and reliable solutions for your industrial equipment needs.",
+    "info": {
+      "address": {
+        "label": "Address",
+        "value": "Industrial Zone, 6th of October City, Egypt"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+20 123 456 7890"
+      },
+      "email": {
+        "label": "Email",
+        "value": "info@egyptianmetalworks.com"
+      },
+      "hours": {
+        "label": "Business Hours",
+        "value": "Sun - Thu: 8:00 AM - 5:00 PM"
+      }
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+20 XXX XXX XXXX",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project requirements...",
+      "submit": "SEND MESSAGE"
+    }
+  }
+}
